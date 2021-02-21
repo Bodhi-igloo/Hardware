@@ -8,3 +8,5 @@ In this project Panasonic CGR 18650CG battey model was built. Based on the param
 ⦁	Generic battery model - connected to an external resistive load 
 The voltage, power and state of charge (SOC) curves are plotted and then compared to check their validity with real world operation.  A Thevenin based model is also developed and checked with the same operating parameters.
 
+ Electricl circuit(Dependent source) - LTspice:
+ In this project a conceptual demo for voltage controlled voltage source is simulated 
