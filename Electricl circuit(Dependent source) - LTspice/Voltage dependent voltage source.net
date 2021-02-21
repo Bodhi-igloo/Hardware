@@ -1,0 +1,11 @@
+* E:\projects\Github\Hardware\Electricl circuit(Dependent source) - LTspice\Voltage dependent voltage source.asc
+V1 N001 0 10v
+V2 N003 0 5v
+R1 N002 0 1k
+R2 N001 N002 1k
+R3 D NC_01 100
+E1 D N003 N001 N002 10
+.op 1
+;tran 1
+.backanno
+.end
